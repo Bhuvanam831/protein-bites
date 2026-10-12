@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Protein Bites – Homemade High-Protein Food, Chennai</title>
+<meta name="description" content="Fresh homemade paneer and moong dal protein snacks and protein dosa batter. Order on WhatsApp. Delivery across Chennai.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap"><div class="logo">🌿 Protein Bites</div><button class="cartbtn" id="open">Cart (<span id="cnt">0</span>)</button></div></header>
+
+<main class="wrap">
+<div class="hero">
+  <div>
+    <h1>Homemade food, <span>high in protein</span>.</h1>
+    <p class="sub">Fresh paneer and moong dal snacks and protein-boosted dosa batter, made in small batches in Chennai. Order in 2 minutes on WhatsApp.</p>
+    <a class="btn" href="#products">Order now</a>
+  </div>
+  <div class="heroimg" aria-hidden="true">🥘</div>
+</div>
+
+<section id="products">
+  <h2>Our products</h2>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section>
+  <h2>Why choose us</h2>
+  <div class="grid">
+    <div class="card"><div class="emoji">🥛</div><h3>High protein</h3><p>Paneer and moong dal as the base of every product.</p></div>
+    <div class="card"><div class="emoji">🏠</div><h3>Homemade and fresh</h3><p>Small batches, no bulk factory production.</p></div>
+    <div class="card"><div class="emoji">🚫</div><h3>No preservatives</h3><p>Simple ingredients you can pronounce.</p></div>
+    <div class="card"><div class="emoji">📍</div><h3>Chennai delivery</h3><p>Delivered fresh across Chennai.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>How to order</h2>
+  <div class="grid steps">
+    <div class="card"><h3>Choose</h3><p>Add products to your cart.</p></div>
+    <div class="card"><h3>Send on WhatsApp</h3><p>Your order is sent as a ready message.</p></div>
+    <div class="card"><h3>Pay and receive</h3><p>Pay by UPI and get it delivered.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>What customers say</h2>
+  <div class="grid">
+    <div class="card"><p>"Sample review: Tasty and filling. Perfect post-workout snack!"</p><div class="meta">Customer name, Chennai</div></div>
+    <div class="card"><p>"Sample review: The protein dosa batter saves me so much time."</p><div class="meta">Customer name, Chennai</div></div>
+  </div>
+</section>
+
+<section>
+  <h2>About us</h2>
+  <p class="sub">We started Protein Bites to make healthy eating simple and tasty. Every batch is made fresh at home with clean ingredients, so your family gets real nutrition without compromise.</p>
+</section>
+
+<section>
+  <h2>FAQ</h2>
+  <details><summary>Where do you deliver?</summary><p>Currently within Chennai only. We will expand soon.</p></details>
+  <details><summary>What is the shelf life?</summary><p>Add shelf life and storage details for each product here.</p></details>
+  <details><summary>How do I pay?</summary><p>UPI (GPay / PhonePe / Paytm) after your order is confirmed on WhatsApp.</p></details>
+  <details><summary>Minimum order?</summary><p>Minimum order is shown in your cart.</p></details>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>Contact:</b> WhatsApp +91 90000 00000 · Instagram @yourhandle · Chennai</p>
+  <p><b>FSSAI License No:</b> XXXXXXXXXXXXXX</p>
+  <p>© Protein Bites. Privacy Policy · Terms</p>
+</div></footer>
+
+<a class="wa" id="wafloat" href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
+
+<div id="drawer"><div class="panel">
+  <h2>Your cart <button class="x" id="close" aria-label="Close">×</button></h2>
+  <div id="items"></div>
+  <div class="total"><span>Total</span><span id="total">₹0</span></div>
+  <div class="note" id="minnote"></div>
+  <input id="name" placeholder="Your name">
+  <textarea id="addr" rows="2" placeholder="Delivery address (Chennai)"></textarea>
+  <button class="btn" style="width:100%;margin-top:8px" id="send">Send order on WhatsApp</button>
+  <p class="note">After sending, we confirm and share the UPI payment details.</p>
+</div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
